@@ -1,0 +1,10 @@
+# Playbook file
+
+-
+  name: Run updates
+  hosts: all
+  tasks:
+    -
+      name: update cache
+      apt:
+        update_cache: yes

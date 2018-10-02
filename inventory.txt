@@ -22,3 +22,8 @@ swarm_target_2
 
 [ubuntu_nodes]
 ubuntu_jenkins
+
+[all]
+ansible_nodes
+swarm_nodes
+ubuntu_nodes
