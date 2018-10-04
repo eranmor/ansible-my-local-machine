@@ -1,6 +1,7 @@
 # Playbook file
 
 -
+  name: update_cache
   hosts: swarm_nodes
   tasks:
     -
