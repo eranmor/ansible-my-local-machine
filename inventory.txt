@@ -1,14 +1,14 @@
 # ansible nodes
 
 ansible_controller ansible_host=192.168.85.3 ansible_connection=ssh ansible_user=osboxes ansible_ssh_pass=osboxes.org
-ansible_target_1 ansible_host= ansible_connection=ssh ansible_user=osboxes ansible_ssh_pass=osboxes.org
-ansible_target_2 ansible_host= ansible_connection=ssh ansible_user=osboxes ansible_ssh_pass=osboxes.org
+# ansible_target_1 ansible_host= ansible_connection=ssh ansible_user=osboxes ansible_ssh_pass=osboxes.org
+# ansible_target_2 ansible_host= ansible_connection=ssh ansible_user=osboxes ansible_ssh_pass=osboxes.org
 
-swarm_controller ansible_host= ansible_connection=ssh ansible_user=root ansible_ssh_pass=password
-swarm_target_1 ansible_host=192.168.56.101 ansible_connection=ssh ansible_user=ubuntu ansible_ssh_pass=password
-swarm_target_2 ansible_host= ansible_connection=ssh ansible_user=root ansible_ssh_pass=password
+s #warm_controller ansible_host= ansible_connection=ssh ansible_user=root ansible_ssh_pass=password
+swarm_target_1 ansible_host=192.168.56.3 ansible_connection=ssh ansible_user=root ansible_ssh_pass=password
+# swarm_target_2 ansible_host= ansible_connection=ssh ansible_user=root ansible_ssh_pass=password
 
-ubuntu_jenkins ansible_host= ansible_connection=ssh ansible_user=root ansible_ssh_pass=password
+# ubuntu_jenkins ansible_host= ansible_connection=ssh ansible_user=root ansible_ssh_pass=password
 
 [ansible_nodes]
 ansible_controller
