@@ -1,7 +1,7 @@
 # Playbook file
 
 -
-  hosts: swarm_target_1
+  hosts: swarm_nodes
   tasks:
     -
       name: update cache
