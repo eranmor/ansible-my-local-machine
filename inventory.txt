@@ -4,6 +4,7 @@ ansible_controller ansible_host=192.168.85.3 ansible_connection=ssh ansible_user
 # ansible_target_1 ansible_host= ansible_connection=ssh ansible_user=osboxes ansible_ssh_pass=osboxes.org
 # ansible_target_2 ansible_host= ansible_connection=ssh ansible_user=osboxes ansible_ssh_pass=osboxes.org
 
+# swarm_nodes
 swarm_controller ansible_host=192.168.56.3 ansible_connection=ssh ansible_user=root ansible_ssh_pass=password
 swarm_target_1 ansible_host=192.168.56.104 ansible_connection=ssh ansible_user=root ansible_ssh_pass=password
 swarm_target_2 ansible_host=192.168.56.102 ansible_connection=ssh ansible_user=root ansible_ssh_pass=password
