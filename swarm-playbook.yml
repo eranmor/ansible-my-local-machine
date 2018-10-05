@@ -7,4 +7,5 @@
     -
       name: update cache
       apt:
+        upgrade: yes
         update_cache: yes
