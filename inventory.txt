@@ -17,9 +17,9 @@ ansible_target_1
 ansible_target_2
 
 [swarm_nodes]
-swarm_controller
-swarm_target_1
-swarm_target_2
+root@swarm_controller
+root@swarm_target_1
+root@swarm_target_2
 
 [ubuntu_nodes]
 ubuntu_jenkins
